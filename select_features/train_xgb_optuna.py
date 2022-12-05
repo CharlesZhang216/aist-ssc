@@ -137,3 +137,8 @@ print(pd.DataFrame(ds))
 
 # pd.DataFrame(list(zip(test_pred, y_test.values)),
 #                columns =["XGB", "GT"]).to_csv("optuna_XGB_results.csv", index=False)
+
+''' 
+my code is under here
+'''
+xgb_reg.save_model("./saved_models/xgb_optuna_133feats_incltype.txt")
